@@ -18,7 +18,7 @@
                 <div class="form-container z-depth-5">
                     <h3>Contact Form</h3> 
                     <div class="row">
-                        <form class="col s12" id="reused_form">
+                        <form class="col s12" id="reused_form" action="contact form connection.php" method="post">
                             <div class="row">
                                 <div class="input-field col s12">
                                     <input id="name" type="text" name="name" required class="validate">
@@ -33,7 +33,7 @@
                             </div>
                             <div class="row">
                                 <div class="input-field col s12">
-                                    <textarea id="message" name="message" class="materialize-textarea" class="validate" ></textarea>
+                                    <input type="text" id="message" name="message" class="materialize-textarea" class="validate" >
                                     <label for="message">Message</label>
                                 </div>
                             </div>
